@@ -119,8 +119,8 @@ echo 21. Cuitlahuac
 echo 22. Tacuba
 echo 23. Panteones
 echo 24. Cuatro Caminos
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-24): "
+set /p destino="Ingrese el numero de la estacion de destino (1-24): "
 pause
 goto start
 
@@ -149,8 +149,8 @@ echo 18. Viveros
 echo 19. Miguel Angel de Quevedo
 echo 20. Copilco
 echo 21. Universidad
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-21): "
+set /p destino="Ingrese el numero de la estacion de destino (1-21): "
 pause
 goto start
 
@@ -168,8 +168,8 @@ echo 7. Candelaria
 echo 8. Fray Servando
 echo 9. Jamaica
 echo 10. Santa Anita
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-10): "
+set /p destino="Ingrese el numero de la estacion de destino (1-10): "
 pause
 goto start
 
@@ -190,8 +190,8 @@ echo 10. La Raza
 echo 11. Autobuses del Norte
 echo 12. Instituto del Petroleo
 echo 13. Politecnico
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-13): "
+set /p destino="Ingrese el numero de la estacion de destino (1-13): "
 pause
 goto start
 
@@ -210,8 +210,8 @@ echo 8. Ferreria/Arena Ciudad de Mexico
 echo 9. UAM-Azcapotzalco
 echo 10. Tezozomoc
 echo 11. El Rosario
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-11): "
+set /p destino="Ingrese el numero de la estacion de destino (1-11): "
 pause
 goto start
 
@@ -233,8 +233,8 @@ echo 11. Refineria
 echo 12. Camarones
 echo 13. Aquiles Serdan
 echo 14. El Rosario
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-14): "
+set /p destino="Ingrese el numero de la estacion de destino (1-14): "
 pause
 goto start
 
@@ -261,8 +261,8 @@ echo 16. Salto del Agua
 echo 17. San Juan de Letran
 echo 18. Bellas Artes
 echo 19. Garibaldi/Lagunilla
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-19): "
+set /p destino="Ingrese el numero de la estacion de destino (1-19): "
 pause
 goto start
 
@@ -282,8 +282,8 @@ echo 9. Centro Medico
 echo 10. Chilpancingo
 echo 11. Patriotismo
 echo 12. Tacubaya
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-12): "
+set /p destino="Ingrese el numero de la estacion de destino (1-12): "
 pause
 goto start
 
@@ -301,8 +301,8 @@ echo 7. Acatitla
 echo 8. Santa Marta
 echo 9. Los Reyes
 echo 10. La Paz
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-10): "
+set /p destino="Ingrese el numero de la estacion de destino (1-10): "
 pause
 goto start
 
@@ -331,8 +331,8 @@ echo 18. Ecatepec
 echo 19. Olimpica
 echo 20. Plaza Aragon
 echo 21. Ciudad Azteca
-set /p origen="Ingrese el numero de la estacion de origen (1-20): "
-set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+set /p origen="Ingrese el numero de la estacion de origen (1-21): "
+set /p destino="Ingrese el numero de la estacion de destino (1-21): "
 pause
 goto start
 
