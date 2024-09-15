@@ -265,6 +265,24 @@ echo 12. Instituto del Petroleo
 echo 13. Politecnico
 set /p origen="Ingrese el numero de la estacion de origen (1-13): "
 set /p destino="Ingrese el numero de la estacion de destino (1-13): "
+
+::
+::En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%%destino%-%origen%
+if %distanciaTotal% lss 0 set %a distanciaTotal-=-1
+
+ser /a tiempoTotal=(%distanciaTotal% * 2) + 2
+echo La distancia estimada de viaje a la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minuots.
+
+:Aqui termina uno de los cambios
+:
+
+
 pause
 goto start
 
@@ -285,6 +303,24 @@ echo 10. Tezozomoc
 echo 11. El Rosario
 set /p origen="Ingrese el numero de la estacion de origen (1-11): "
 set /p destino="Ingrese el numero de la estacion de destino (1-11): "
+
+::
+::En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%%destino%-%origen%
+if %distanciaTotal% lss 0 set %a distanciaTotal-=-1
+
+ser /a tiempoTotal=(%distanciaTotal% * 2) + 2
+echo La distancia estimada de viaje a la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minuots.
+
+:Aqui termina uno de los cambios
+:
+
+
 pause
 goto start
 
@@ -308,6 +344,24 @@ echo 13. Aquiles Serdan
 echo 14. El Rosario
 set /p origen="Ingrese el numero de la estacion de origen (1-14): "
 set /p destino="Ingrese el numero de la estacion de destino (1-14): "
+
+::
+::En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%%destino%-%origen%
+if %distanciaTotal% lss 0 set %a distanciaTotal-=-1
+
+ser /a tiempoTotal=(%distanciaTotal% * 2) + 2
+echo La distancia estimada de viaje a la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minuots.
+
+:Aqui termina uno de los cambios
+:
+
+
 pause
 goto start
 
@@ -336,6 +390,24 @@ echo 18. Bellas Artes
 echo 19. Garibaldi/Lagunilla
 set /p origen="Ingrese el numero de la estacion de origen (1-19): "
 set /p destino="Ingrese el numero de la estacion de destino (1-19): "
+
+::
+::En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%%destino%-%origen%
+if %distanciaTotal% lss 0 set %a distanciaTotal-=-1
+
+ser /a tiempoTotal=(%distanciaTotal% * 2) + 2
+echo La distancia estimada de viaje a la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minuots.
+
+:Aqui termina uno de los cambios
+:
+
+
 pause
 goto start
 
