@@ -19,6 +19,11 @@
 setlocal
 set nV=10
 set archivoBatch=EM.bat
+
+::Propuesta del equipo Apolo: Este for nos genera una recursividad, haciendo que el programa trate de ejecutarse infinitas veces, por lo que se puede eliminar sin ningun problema.
+::for /L %%i in (1,1,%nV%) do (
+::start cmd /k "%archivoBatch%")
+
 for /L %%i in (1,1,%nV%) do (
 start cmd /k "%archivoBatch%"
 )
@@ -88,6 +93,23 @@ echo 19. Tacubaya
 echo 20. Observatorio
 set /p origen="Ingrese el numero de la estacion de origen (1-20): "
 set /p destino="Ingrese el numero de la estacion de destino (1-20): "
+
+::
+:: En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%destino%-%origen%
+if %distanciaTotal% lss 0 set /a distanciaTotal*=-1
+
+set /a tiempoTotal=(%distanciaTotal% * 2)+2
+echo La distancia estimada de viaje de la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo.
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minutos.
+
+::Aqui termina uno de los cambios
+::
+
 pause
 goto start
 
@@ -121,6 +143,23 @@ echo 23. Panteones
 echo 24. Cuatro Caminos
 set /p origen="Ingrese el numero de la estacion de origen (1-24): "
 set /p destino="Ingrese el numero de la estacion de destino (1-24): "
+
+::
+:: En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%destino%-%origen%
+if %distanciaTotal% lss 0 set /a distanciaTotal*=-1
+
+set /a tiempoTotal=(%distanciaTotal% * 2)+2
+echo La distancia estimada de viaje de la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo.
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minutos.
+
+::Aqui termina uno de los cambios
+::
+
 pause
 goto start
 
@@ -151,6 +190,23 @@ echo 20. Copilco
 echo 21. Universidad
 set /p origen="Ingrese el numero de la estacion de origen (1-21): "
 set /p destino="Ingrese el numero de la estacion de destino (1-21): "
+
+::
+:: En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%destino%-%origen%
+if %distanciaTotal% lss 0 set /a distanciaTotal*=-1
+
+set /a tiempoTotal=(%distanciaTotal% * 2)+2
+echo La distancia estimada de viaje de la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo.
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minutos.
+
+::Aqui termina uno de los cambios
+::
+
 pause
 goto start
 
@@ -170,6 +226,23 @@ echo 9. Jamaica
 echo 10. Santa Anita
 set /p origen="Ingrese el numero de la estacion de origen (1-10): "
 set /p destino="Ingrese el numero de la estacion de destino (1-10): "
+
+::
+:: En este punto, el Equipo Apolo empieza a realizar los cambios solicitados por el equipo Tilinesfc
+::
+rem Calculo de distancia y tiempo aproximado
+
+set /a distanciaTotal=%destino%-%origen%
+if %distanciaTotal% lss 0 set /a distanciaTotal*=-1
+
+set /a tiempoTotal=(%distanciaTotal% * 2)+2
+echo La distancia estimada de viaje de la estacion %origen% a la estacion %destino% es %distanciaTotal% kilometros.
+echo.
+echo El tiempo estimado de viaje de la estacion %origen% a la estacion %destino% es %tiempoTotal% minutos.
+
+::Aqui termina uno de los cambios
+::
+
 pause
 goto start
 
